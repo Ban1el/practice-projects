@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRIS_API", "HRIS_API\HRIS_API.csproj", "{A67D0CFE-19E1-4331-80FF-668366B5FFEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A67D0CFE-19E1-4331-80FF-668366B5FFEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A67D0CFE-19E1-4331-80FF-668366B5FFEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A67D0CFE-19E1-4331-80FF-668366B5FFEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A67D0CFE-19E1-4331-80FF-668366B5FFEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8B0625C-CD7B-4554-8A02-62FF9FE893B5}
+	EndGlobalSection
+EndGlobal
