@@ -1,0 +1,115 @@
+﻿@model HRIS.Models.DTO.EmployeeDTO
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row d-flex justify-content-center">
+        <div class="col-6">
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-title fw-bold">Create</div>
+
+                    <div class="form-group mb-3">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-3 d-flex align-items-center pe-0">
+                                <label class="form-label">Employee ID:</label>
+                            </div>
+                            <div class="col-6">
+                                @Html.TextBoxFor(m => m.EmployeeID, new { @class = "form-control" })
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-3 d-flex align-items-center pe-0">
+                                <label class="form-label">First Name:</label>
+                            </div>
+                            <div class="col-6">
+                                @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-3 d-flex align-items-center pe-0">
+                                <label class="form-label">Middle Name:</label>
+                            </div>
+                            <div class="col-6">
+                                @Html.TextBoxFor(m => m.MiddleName, new { @class = "form-control" })
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-3 d-flex align-items-center pe-0">
+                                <label class="form-label">Last Name:</label>
+                            </div>
+                            <div class="col-6">
+                                @Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-3 d-flex align-items-center pe-0">
+                                <label class="form-label">Mobile Number:</label>
+                            </div>
+                            <div class="col-6">
+                                @Html.TextBoxFor(m => m.MobileNumber, new { @class = "form-control" })
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-3 d-flex align-items-center pe-0">
+                                <label class="form-label">Email:</label>
+                            </div>
+                            <div class="col-6">
+                                @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                            </div>
+                        </div>
+                    </div>
+
+                    <input type="submit" class="btn btn-primary float-end" id="submit_form" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+{
+    <script>
+        $(document).ready(function () {
+            $('#submit_form').on('click', function () {
+                $.fn.toggleLoadingScreen();
+
+                data = {
+                    ID: 1
+                }
+
+                $.ajax({
+                    type: "POST",
+                    contentType: 'application/json; charset=utf-8',
+                    url: '@Url.Action("Add", "Employee")', 
+                    data: JSON.stringify(data),
+                    datatype: "json", 
+                    success: function (data) {
+                        $.fn.toggleLoadingScreen();
+                    },
+                    error: function (data) {
+                        console.log(data);
+                    }
+                });
+
+            });
+        });
+    </script>
+}
