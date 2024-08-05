@@ -3,11 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A67D0CFE-19E1-4331-80FF-668366B5FFEB}|HRIS_API\\HRIS_API.csproj|c:\\users\\admin\\desktop\\practice-projects\\hris_api\\hris_api\\models\\dbinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A67D0CFE-19E1-4331-80FF-668366B5FFEB}|HRIS_API\\HRIS_API.csproj|c:\\users\\admin\\desktop\\practice-projects\\hris_api\\hris_api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A67D0CFE-19E1-4331-80FF-668366B5FFEB}|HRIS_API\\HRIS_API.csproj|solutionrelative:hris_api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A67D0CFE-19E1-4331-80FF-668366B5FFEB}|HRIS_API\\HRIS_API.csproj|C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS_API\\hris_api\\utilities\\employeeutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A67D0CFE-19E1-4331-80FF-668366B5FFEB}|HRIS_API\\HRIS_API.csproj|solutionrelative:hris_api\\utilities\\employeeutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A67D0CFE-19E1-4331-80FF-668366B5FFEB}|HRIS_API\\HRIS_API.csproj|C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS_API\\hris_api\\models\\dbinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A67D0CFE-19E1-4331-80FF-668366B5FFEB}|HRIS_API\\HRIS_API.csproj|solutionrelative:hris_api\\models\\dbinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A67D0CFE-19E1-4331-80FF-668366B5FFEB}|HRIS_API\\HRIS_API.csproj|c:\\users\\admin\\desktop\\practice-projects\\hris_api\\hris_api\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{A67D0CFE-19E1-4331-80FF-668366B5FFEB}|HRIS_API\\HRIS_API.csproj|C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS_API\\hris_api\\models\\dto\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A67D0CFE-19E1-4331-80FF-668366B5FFEB}|HRIS_API\\HRIS_API.csproj|solutionrelative:hris_api\\models\\dto\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A67D0CFE-19E1-4331-80FF-668366B5FFEB}|HRIS_API\\HRIS_API.csproj|C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS_API\\hris_api\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A67D0CFE-19E1-4331-80FF-668366B5FFEB}|HRIS_API\\HRIS_API.csproj|solutionrelative:hris_api\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A67D0CFE-19E1-4331-80FF-668366B5FFEB}|HRIS_API\\HRIS_API.csproj|C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS_API\\hris_api\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A67D0CFE-19E1-4331-80FF-668366B5FFEB}|HRIS_API\\HRIS_API.csproj|solutionrelative:hris_api\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -18,11 +34,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS_API\\HRIS_API\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "HRIS_API\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS_API\\HRIS_API\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "HRIS_API\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T16:25:18.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS_API\\HRIS_API\\Models\\DTO\\EmployeeDTO.cs",
+              "RelativeDocumentMoniker": "HRIS_API\\Models\\DTO\\EmployeeDTO.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS_API\\HRIS_API\\Models\\DTO\\EmployeeDTO.cs",
+              "RelativeToolTip": "HRIS_API\\Models\\DTO\\EmployeeDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T16:23:51.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS_API\\HRIS_API\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "HRIS_API\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS_API\\HRIS_API\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "HRIS_API\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAEwCMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T16:00:08.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "EmployeeUtils.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS_API\\HRIS_API\\Utilities\\EmployeeUtils.cs",
+              "RelativeDocumentMoniker": "HRIS_API\\Utilities\\EmployeeUtils.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS_API\\HRIS_API\\Utilities\\EmployeeUtils.cs",
+              "RelativeToolTip": "HRIS_API\\Utilities\\EmployeeUtils.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAqwDsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T15:53:47.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS_API\\HRIS_API\\Web.config",
               "RelativeDocumentMoniker": "HRIS_API\\Web.config",
@@ -35,13 +101,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "DBInterface.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS_API\\HRIS_API\\Models\\DBInterface.cs",
               "RelativeDocumentMoniker": "HRIS_API\\Models\\DBInterface.cs",
               "ToolTip": "C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS_API\\HRIS_API\\Models\\DBInterface.cs",
               "RelativeToolTip": "HRIS_API\\Models\\DBInterface.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA3AAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAuwD0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-03T14:42:04.251Z",
               "EditorCaption": ""

@@ -17,7 +17,7 @@
                                 <label class="form-label">Employee ID:</label>
                             </div>
                             <div class="col-6">
-                                @Html.TextBoxFor(m => m.EmployeeID, new { @class = "form-control" })
+                                @Html.TextBoxFor(m => m.EmployeeID, new { @class = "form-control", id = "employee_id" })
                             </div>
                         </div>
                     </div>
@@ -28,7 +28,7 @@
                                 <label class="form-label">First Name:</label>
                             </div>
                             <div class="col-6">
-                                @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
+                                @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control", id = "first_name" })
                             </div>
                         </div>
                     </div>
@@ -39,7 +39,7 @@
                                 <label class="form-label">Middle Name:</label>
                             </div>
                             <div class="col-6">
-                                @Html.TextBoxFor(m => m.MiddleName, new { @class = "form-control" })
+                                @Html.TextBoxFor(m => m.MiddleName, new { @class = "form-control", id = "middle_name" })
                             </div>
                         </div>
                     </div>
@@ -50,7 +50,7 @@
                                 <label class="form-label">Last Name:</label>
                             </div>
                             <div class="col-6">
-                                @Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })
+                                @Html.TextBoxFor(m => m.LastName, new { @class = "form-control", id = "last_name" })
                             </div>
                         </div>
                     </div>
@@ -61,7 +61,7 @@
                                 <label class="form-label">Mobile Number:</label>
                             </div>
                             <div class="col-6">
-                                @Html.TextBoxFor(m => m.MobileNumber, new { @class = "form-control" })
+                                @Html.TextBoxFor(m => m.MobileNumber, new { @class = "form-control", id = "mobile_number" })
                             </div>
                         </div>
                     </div>
@@ -72,7 +72,7 @@
                                 <label class="form-label">Email:</label>
                             </div>
                             <div class="col-6">
-                                @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                                @Html.TextBoxFor(m => m.Email, new { @class = "form-control", id = "email" })
                             </div>
                         </div>
                     </div>
@@ -88,11 +88,17 @@
 {
     <script>
         $(document).ready(function () {
+
             $('#submit_form').on('click', function () {
                 $.fn.toggleLoadingScreen();
 
                 data = {
-                    ID: 1
+                    EmployeeID : $('#employee_id').val(),
+                    FirstName : $('#first_name').val(),
+                    MiddleName : $('#middle_name').val(),
+                    LastName : $('#last_name').val(),
+                    MobileNumber : $('#mobile_number').val(),
+                    Email : $('#email').val()
                 }
 
                 $.ajax({
@@ -102,10 +108,21 @@
                     data: JSON.stringify(data),
                     datatype: "json", 
                     success: function (data) {
+                        console.log(data);
+                        if (data.StatusCode === 200) {
+                            alert("Employee saved!");
+                            location.reload();
+                        } else if (data.StatusCode === 400){
+                            alert(data.Message);
+                        } else {
+                            alert("Internal Error");
+                        }
+
                         $.fn.toggleLoadingScreen();
                     },
                     error: function (data) {
-                        console.log(data);
+                        alert("Internal Error");
+                        $.fn.toggleLoadingScreen();
                     }
                 });
 
