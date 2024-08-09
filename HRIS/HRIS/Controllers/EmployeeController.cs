@@ -4,8 +4,13 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web;
+using System.Web.Helpers;
 using System.Web.Mvc;
+using System.Web.UI.WebControls;
+using System.Xml.Linq;
 using HRIS.Models.DTO;
+using Microsoft.Ajax.Utilities;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
 namespace HRIS.Controllers
@@ -29,7 +34,7 @@ namespace HRIS.Controllers
         [HttpPost]
         public ActionResult Add(EmployeeDTO dto)
         {
-            APIResponse result = service.EmployeeCreateUpdate(dto);
+            APIResponseDTO result = service.EmployeeCreateUpdate(dto);
 
             var jsonResponse = new
             {
@@ -38,6 +43,14 @@ namespace HRIS.Controllers
             };
 
             return Json(jsonResponse);
+        }
+
+        [HttpPost]
+        public ActionResult EmployeeList()
+        {
+            APIResponseDTO result = service.EmployeeGetList();
+           
+            return Json(new { StatusCode = result.statusCode, Message = result.message, Employees = result.data }, JsonRequestBehavior.AllowGet);
         }
     }
 }

@@ -6,7 +6,7 @@
     <title>@ViewBag.Title</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
-
+    <link href="~/Content/DataTables/datatables.min.css" rel="stylesheet"/>
     <style>
         input{
             max-width: 100% !important;
@@ -76,7 +76,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="@Url.Action("Index", "Employee")">Home</a>
                     </li>
 
                     <li class="nav-item">
@@ -93,6 +93,7 @@
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+    <script src="~/Content/DataTables/datatables.min.js"></script>
 
     <script>
         //User defined JQuery functions

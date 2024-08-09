@@ -19,7 +19,7 @@ namespace HRIS.Utility
         private static readonly HttpClient client = new HttpClient();
         private static string baseURI = WebConfigurationManager.AppSettings["API_HRIS"];
 
-        public APIResponse PostRequest(string endpoint, dynamic data)
+        public APIResponseDTO PostRequest(string endpoint, dynamic data)
         {
             using (var client = new HttpClient())
             {
@@ -43,11 +43,27 @@ namespace HRIS.Utility
 
                 }
 
-                APIResponse dto = new APIResponse
+                APIResponseDTO dto = new APIResponseDTO
                 {
                     statusCode = response.StatusCode,
                     message = message,
                 };
+
+                return dto;
+            }
+        }
+
+        public APIResponseDTO GetRequest(string endpoint)
+        {
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri(baseURI); // Base address can be customized or omitted
+
+                client.Timeout = TimeSpan.FromMinutes(10);
+                var response = client.GetAsync(endpoint).Result;
+
+                string content = response.Content.ReadAsStringAsync().Result;
+                APIResponseDTO dto = JsonConvert.DeserializeObject<APIResponseDTO>(content);
 
                 return dto;
             }

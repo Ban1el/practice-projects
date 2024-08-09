@@ -20,7 +20,7 @@ namespace HRIS.Models.DTO
         public DateTime? DateModified { get; set; }
     }
 
-    public class APIResponse
+    public class APIResponseDTO
     {
         public HttpStatusCode statusCode { get; set; }
         public string message { get; set; }

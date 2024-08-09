@@ -162,6 +162,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\DBInterface.cs" />
+    <Compile Include="Models\DTO\APIDTO.cs" />
     <Compile Include="Models\DTO\EmployeeDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\EmployeeUtils.cs" />

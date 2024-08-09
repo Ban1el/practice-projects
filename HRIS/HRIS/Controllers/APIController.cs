@@ -12,7 +12,7 @@ namespace HRIS.Controllers
     public class APIController : Controller
     {
         APIConnection api = new APIConnection();
-        public APIResponse EmployeeCreateUpdate(EmployeeDTO dto)
+        public APIResponseDTO EmployeeCreateUpdate(EmployeeDTO dto)
         {
             dynamic data = new
             {
@@ -27,5 +27,9 @@ namespace HRIS.Controllers
             return api.PostRequest("Employee/EmployeeCreateUpdate", data);
         }
 
+        public APIResponseDTO EmployeeGetList()
+        {
+            return api.GetRequest("Employee/EmployeeList");
+        }
     }
 }

@@ -58,5 +58,22 @@ namespace HRIS_API.Utilities
 
             return dt;
         }
+        public DataTable EmployeeList()
+        {
+            SqlCommand cmd = new SqlCommand();
+            DataTable dt = null;
+            try
+            {
+                cmd.Parameters.AddWithValue("@Identifier", "GetEmpList");
+
+                dt = ExecuteReader("usp_Employee_get", conn, cmd);
+            }
+            catch (Exception ex)
+            {
+
+            }
+
+            return dt;
+        }
     }
 }
