@@ -6,57 +6,9 @@
     <title>@ViewBag.Title</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
-    <link href="~/Content/DataTables/datatables.min.css" rel="stylesheet"/>
-    <style>
-        input{
-            max-width: 100% !important;
-        }
+    <link href="~/Content/DataTables/datatables.min.css" rel="stylesheet" />
+    <link href="~/Content/Custom/custom-style.css" rel="stylesheet" />
 
-        #loading_spinner_background {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 10;
-        }
-
-        .loading-add-opacity {
-            opacity: 0.5;
-        }
-
-        #overlay {
-            height: 100vh;
-            width: 100vw;
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 9;
-            background-color: black;
-            opacity: 0.3;
-        }
-
-        #loading_spinner_bg {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 9;
-        }
-
-        #loading_spinner {
-            width: 4rem;
-            height: 4rem;
-        }
-
-        .show{
-            display: block;
-        }
-
-        .hide {
-            display: none;
-        }
-    </style>
 </head>
 <body>
 
@@ -67,25 +19,40 @@
         </div>
     </div>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">HRIS</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="@Url.Action("Index", "Employee")">Home</a>
-                    </li>
+    <div class="side-nav">
+        <div class="d-flex flex-column h-100">
+            <div class="nav-tab mb-3">
+                HRIS
+            </div>
 
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="@Url.Action("Create", "Employee")">Register Employee</a>
-                    </li>
-                </ul>
+            <div class="nav-tab mb-3">
+                Home
+            </div>
+
+            <div class="nav-tab mb-3">
+                Analytics
+            </div>
+
+            <div class="nav-tab mb-3">
+                User
+            </div>
+
+            <div class="nav-tab">
+                <a href="@Url.Action("Index", "Employee")">Employee</a>
+            </div>
+
+            <div class="nav-tab nav-profile-tab mt-auto">
+                <div class="d-flex">
+                    <img src="~/Content/images/user-profile/placeholder-profile.jpg" alt="test" class="rounded-circle profile-pic">
+                    <div>
+                        <p>Username</p>
+                        <p>Fullname</p>
+                    </div>
+                </div>
+                
             </div>
         </div>
-    </nav>
+    </div>
 
     <div class="container body-content">
         @RenderBody()
