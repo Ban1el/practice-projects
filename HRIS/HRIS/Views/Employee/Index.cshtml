@@ -4,8 +4,6 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Employee List</h2>
-
 <div class="container">
     <div class="row d-flex justify-content-center">
         <div class="card">
@@ -22,9 +20,10 @@
                             <th>Email</th>
                             <th>Date Created</th>
                             <th>Date Modified</th>
+                            <th>Action</th>
                         </tr>
                     </thead>
-              
+
                 </table>
             </div>
         </div>
@@ -56,6 +55,12 @@
                                  { data: 'Email' },
                                  { data: 'DateCreated' },
                                  { data: 'DateModified' },
+                                 {
+                                     data: null,
+                                     render: function (data, type, row) {
+                                         return '<button class="btn btn-primary view-employee" id="' + row.ID + '">View</button>';
+                                     }
+                                 }
                              ]
                          });
 
@@ -72,6 +77,11 @@
                      $.fn.toggleLoadingScreen();
                  }
              });
+
+            $('#datatable').on('click', '.view-employee', function () {
+                var id = $(this).attr('id');
+                window.location.href = '/Employee/Detail/' + id;
+            });
     });
     </script>
 }

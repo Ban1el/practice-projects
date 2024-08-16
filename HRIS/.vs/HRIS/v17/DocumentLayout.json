@@ -1,26 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS\\",
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Desktop\\PROJECTS\\practice-projects\\HRIS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0CD91BE0-E649-491F-8A88-F465EFA9EED1}|HRIS\\HRIS.csproj|c:\\users\\admin\\desktop\\practice-projects\\hris\\hris\\utility\\apiconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CD91BE0-E649-491F-8A88-F465EFA9EED1}|HRIS\\HRIS.csproj|solutionrelative:hris\\utility\\apiconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CD91BE0-E649-491F-8A88-F465EFA9EED1}|HRIS\\HRIS.csproj|C:\\Users\\ADMIN\\Desktop\\PROJECTS\\practice-projects\\HRIS\\hris\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0CD91BE0-E649-491F-8A88-F465EFA9EED1}|HRIS\\HRIS.csproj|solutionrelative:hris\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CD91BE0-E649-491F-8A88-F465EFA9EED1}|HRIS\\HRIS.csproj|C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS\\hris\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CD91BE0-E649-491F-8A88-F465EFA9EED1}|HRIS\\HRIS.csproj|solutionrelative:hris\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CD91BE0-E649-491F-8A88-F465EFA9EED1}|HRIS\\HRIS.csproj|c:\\users\\admin\\desktop\\projects\\practice-projects\\hris\\hris\\content\\fonts.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0CD91BE0-E649-491F-8A88-F465EFA9EED1}|HRIS\\HRIS.csproj|solutionrelative:hris\\content\\fonts.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CD91BE0-E649-491F-8A88-F465EFA9EED1}|HRIS\\HRIS.csproj|C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS\\hris\\models\\dto\\customdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CD91BE0-E649-491F-8A88-F465EFA9EED1}|HRIS\\HRIS.csproj|solutionrelative:hris\\models\\dto\\customdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CD91BE0-E649-491F-8A88-F465EFA9EED1}|HRIS\\HRIS.csproj|C:\\Users\\ADMIN\\Desktop\\PROJECTS\\practice-projects\\HRIS\\hris\\content\\custom\\custom-style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0CD91BE0-E649-491F-8A88-F465EFA9EED1}|HRIS\\HRIS.csproj|solutionrelative:hris\\content\\custom\\custom-style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CD91BE0-E649-491F-8A88-F465EFA9EED1}|HRIS\\HRIS.csproj|C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS\\hris\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0CD91BE0-E649-491F-8A88-F465EFA9EED1}|HRIS\\HRIS.csproj|C:\\Users\\ADMIN\\Desktop\\PROJECTS\\practice-projects\\HRIS\\hris\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0CD91BE0-E649-491F-8A88-F465EFA9EED1}|HRIS\\HRIS.csproj|solutionrelative:hris\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CD91BE0-E649-491F-8A88-F465EFA9EED1}|HRIS\\HRIS.csproj|C:\\Users\\ADMIN\\Desktop\\PROJECTS\\practice-projects\\HRIS\\hris\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CD91BE0-E649-491F-8A88-F465EFA9EED1}|HRIS\\HRIS.csproj|solutionrelative:hris\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CD91BE0-E649-491F-8A88-F465EFA9EED1}|HRIS\\HRIS.csproj|C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS\\hris\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0CD91BE0-E649-491F-8A88-F465EFA9EED1}|HRIS\\HRIS.csproj|solutionrelative:hris\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0CD91BE0-E649-491F-8A88-F465EFA9EED1}|HRIS\\HRIS.csproj|c:\\users\\admin\\desktop\\projects\\practice-projects\\hris\\hris\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0CD91BE0-E649-491F-8A88-F465EFA9EED1}|HRIS\\HRIS.csproj|solutionrelative:hris\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,68 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CustomDTO.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS\\HRIS\\Models\\DTO\\CustomDTO.cs",
-              "RelativeDocumentMoniker": "HRIS\\Models\\DTO\\CustomDTO.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS\\HRIS\\Models\\DTO\\CustomDTO.cs",
-              "RelativeToolTip": "HRIS\\Models\\DTO\\CustomDTO.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAADgvw0AAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T11:58:02.125Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS\\HRIS\\Views\\Employee\\Create.cshtml",
-              "RelativeDocumentMoniker": "HRIS\\Views\\Employee\\Create.cshtml",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS\\HRIS\\Views\\Employee\\Create.cshtml",
-              "RelativeToolTip": "HRIS\\Views\\Employee\\Create.cshtml",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAAAG4AAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-05T12:26:55.231Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS\\HRIS\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "HRIS\\Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS\\HRIS\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "HRIS\\Controllers\\EmployeeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAmwA4AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T11:56:07.702Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "APIConnection.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS\\HRIS\\Utility\\APIConnection.cs",
-              "RelativeDocumentMoniker": "HRIS\\Utility\\APIConnection.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS\\HRIS\\Utility\\APIConnection.cs",
-              "RelativeToolTip": "HRIS\\Utility\\APIConnection.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAuwDMAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T09:53:15.116Z",
+              "DocumentIndex": 1,
+              "Title": "fonts.css",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PROJECTS\\practice-projects\\HRIS\\HRIS\\Content\\fonts.css",
+              "RelativeDocumentMoniker": "HRIS\\Content\\fonts.css",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PROJECTS\\practice-projects\\HRIS\\HRIS\\Content\\fonts.css",
+              "RelativeToolTip": "HRIS\\Content\\fonts.css",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAGwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-16T12:11:09.373Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "APIController.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS\\HRIS\\Controllers\\APIController.cs",
-              "RelativeDocumentMoniker": "HRIS\\Controllers\\APIController.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\practice-projects\\HRIS\\HRIS\\Controllers\\APIController.cs",
-              "RelativeToolTip": "HRIS\\Controllers\\APIController.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAcwBUAAAAoAAAA",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PROJECTS\\practice-projects\\HRIS\\HRIS\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "HRIS\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PROJECTS\\practice-projects\\HRIS\\HRIS\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "HRIS\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-10T14:22:13.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PROJECTS\\practice-projects\\HRIS\\HRIS\\Views\\Employee\\Details.cshtml",
+              "RelativeDocumentMoniker": "HRIS\\Views\\Employee\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PROJECTS\\practice-projects\\HRIS\\HRIS\\Views\\Employee\\Details.cshtml",
+              "RelativeToolTip": "HRIS\\Views\\Employee\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T13:35:50.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PROJECTS\\practice-projects\\HRIS\\HRIS\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "HRIS\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PROJECTS\\practice-projects\\HRIS\\HRIS\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "HRIS\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T09:53:11.662Z"
+              "WhenOpened": "2024-08-10T14:21:06.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "custom-style.css",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PROJECTS\\practice-projects\\HRIS\\HRIS\\Content\\Custom\\custom-style.css",
+              "RelativeDocumentMoniker": "HRIS\\Content\\Custom\\custom-style.css",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PROJECTS\\practice-projects\\HRIS\\HRIS\\Content\\Custom\\custom-style.css",
+              "RelativeToolTip": "HRIS\\Content\\Custom\\custom-style.css",
+              "ViewState": "AQIAADEAAAAAAAAAAAAAAE8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-10T10:13:45.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PROJECTS\\practice-projects\\HRIS\\HRIS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "HRIS\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PROJECTS\\practice-projects\\HRIS\\HRIS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "HRIS\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T06:57:45.169Z",
+              "EditorCaption": ""
             }
           ]
         }

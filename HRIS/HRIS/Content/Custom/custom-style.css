@@ -54,18 +54,48 @@
     left: 0px;
     width: 300px;
     height: 100vh;
-
     background-color: #000000;
     color: #ffffff;
-    font-size: 1.5rem;
+    font-size: 0.9rem;
+    font-family: "Poppins";
+    /*border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;*/
+    border-radius: 2%;
+    overflow: hidden;
+}
+
+.nav-tab {
+    text-decoration: none;
+}
+
+.nav-tab a {
+    text-decoration: none;
+    color: inherit;
+    background: none; /* Removes any background color */
+    border: none; /* Removes any border */
 }
 
 .nav-profile-tab {
-    background-color: #14213d;
+    background-color: #141414;
+}
+
+.nav-profile-tab p{
+    margin: 0px;
 }
 
 .profile-pic{
     width: auto;
-    height: 80px;
+    height: 60px;
 }
 
+.nav-header {
+    font-size: 1.5rem;
+}
+
+.side-nav-open{
+
+}
+
+.side-nav-close {
+
+}

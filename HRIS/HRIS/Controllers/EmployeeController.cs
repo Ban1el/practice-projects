@@ -31,6 +31,11 @@ namespace HRIS.Controllers
             return View(employeeDTO);
         }
 
+        public ActionResult Details(int id)
+        {
+            return View();
+        }
+
         [HttpPost]
         public ActionResult Add(EmployeeDTO dto)
         {
