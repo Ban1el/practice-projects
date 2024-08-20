@@ -24,30 +24,32 @@
         </div>
     </div>
 
-    <div class="side-nav open-nav shadow">
+    <div class="side-nav shadow" id="side-nav">
         <div class="d-flex flex-column h-100">
-            <div class="px-3">
-                <div class="nav-tab mb-3 nav-header poppins-bold" style="padding-left: 0.2rem; padding-right: 0.2rem; padding-top: 1rem;">
-                    <div class="d-flex">
-                        <p>HRIS</p>
-                        <i class="bi bi-list ms-auto" id="hb-btn" style="cursor: pointer;"></i>
-                    </div>
+            <div>
+                <div class="nav-tab mb-3 nav-header poppins-bold d-flex px-3" style="padding-left: 0.2rem; padding-right: 0.2rem; padding-top: 1rem;">
+                    <p>HRIS</p>
+                    <i class="bi bi-list ms-auto me-2" id="hb-btn" style="cursor: pointer;"></i>
                 </div>
 
-                <div class="nav-tab mb-3">
-                    Home
+                <div class="nav-tab d-flex mb-4 ps-4 pe-3">
+                    <i class="bi bi-house-door me-3"></i>
+                    <p class="m-0">Home</p>
                 </div>
 
-                <div class="nav-tab mb-3">
-                    Analytics
+                <div class="nav-tab d-flex mb-4 ps-4 pe-3">
+                    <i class="bi bi-person me-3"></i>
+                    <p class="m-0">User</p>
                 </div>
 
-                <div class="nav-tab mb-3">
-                    User
+                <div class="nav-tab d-flex mb-4 ps-4 pe-3">
+                    <i class="bi bi-people me-3"></i>
+                    <a class="m-0" href="@Url.Action("Index", "Employee")">Employee</a>
                 </div>
 
-                <div class="nav-tab">
-                    <a href="@Url.Action("Index", "Employee")">Employee</a>
+                <div class="nav-tab d-flex mb-4 ps-4 pe-3">
+                    <i class="bi bi-shield-lock me-3"></i>
+                    <p class="m-0">Acces Rights</p>
                 </div>
             </div>
 
@@ -58,7 +60,7 @@
                         <p>Username</p>
                         <p>Fullname</p>
                     </div>
-                    <i class="bi bi-box-arrow-left ms-auto" style="font-size: 1.5em;"></i>
+                    <i class="bi bi-box-arrow-left ms-auto me-2" style="font-size: 1.5em;"></i>
                 </div>
             </div>
         </div>
@@ -80,10 +82,23 @@
         };
 
         $(document).ready(function () {
-            $("#hb-btn").click(function () {
-                
+
+            var initialLoad = true;
+
+            $("#hb-btn").on("click", function () {
+                var sideBar = $("#side-nav");
+
+                if (sideBar.hasClass("side-nav-open") || initialLoad == true) {
+                    sideBar.addClass("side-nav-close");
+                    sideBar.removeClass("side-nav-open");
+                    initialLoad = false;
+                } else {
+                    sideBar.addClass("side-nav-open");
+                    sideBar.removeClass("side-nav-close");
+                }
             });
         });
+
     </script>
 
     @RenderSection("scripts", required: false)

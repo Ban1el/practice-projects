@@ -47,12 +47,11 @@
     display: none;
 }
 
-/* SIDE NAV */
+/* SIDE NAV START */
 .side-nav {
     position: fixed;
     bottom: 0px;
     left: 0px;
-    width: 300px;
     height: 100vh;
     background-color: #000000;
     color: #ffffff;
@@ -60,12 +59,14 @@
     font-family: "Poppins";
     /*border-top-right-radius: 2%;
     border-bottom-right-radius: 2%;*/
-    border-radius: 2%;
+    /*border-radius: 2%;*/
     overflow: hidden;
+    width: 300px;
 }
 
 .nav-tab {
     text-decoration: none;
+    font-size: 1.2em;
 }
 
 .nav-tab a {
@@ -92,10 +93,36 @@
     font-size: 1.5rem;
 }
 
-.side-nav-open{
-
+.side-nav-open {
+    animation-name: slidein;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 .side-nav-close {
-
+    animation-name: slideout;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
+
+@keyframes slidein {
+    from {
+        transform: translateX(-75%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slideout {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-75%);
+    }
+}
+
+
